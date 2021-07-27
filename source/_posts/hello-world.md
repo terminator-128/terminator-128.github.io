@@ -16,5 +16,129 @@ updated:
 
 ## Markdown
 
-所有文章均为Markdown渲染而成，
+所有文章均为Markdown渲染而成，下面测试展示：
+
+### 图片
+
+![Markdown文件渲染过程](markdown-flowchart.png)
+
+
+
+### 超链接
+
+[百度](https://www.)
+
+
+
+### 字体
+
+**这是** *一段*  示例
+
+
+
+### 列表
+
+1. 王小波
+2. 周国平
+   - 《尼采：在世纪的转折点上》
+   - 《守望的距离》
+   - 《人生哲思录》
+   - 《人与永恒》
+
+- - - - -
+
+- 独孤求败
+
+
+- 西门吹雪
+
+
+
+
+### 表格
+
+| header | header0 | header1 | header2 | header3 |
+| ------ | ------- | ------- | ------- | ------- |
+| row0   |         |         |         |         |
+| row1   |         |         |         |         |
+
+
+
+### 引用
+
+> 这里是一段应用
+
+
+
+### 数学公式
+
+$$
+E = m*c^2
+$$
+
+
+
+### 代码块
+
+#### C
+
+```c++
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello, world!");
+    return 0;
+}
+```
+
+#### C++
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Hello, world!" << endl;
+    return 0;
+}
+```
+
+#### python
+
+```python
+def __main():
+    print("Hello, World!\n")
+```
+
+#### java
+
+```java
+class HelloWorld {
+    public static void main(String args[]){
+        System.out.println("Hello, world");
+    }
+}
+```
+
+#### Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, world!")
+}
+```
+
+#### Rust
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
 

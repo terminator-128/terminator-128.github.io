@@ -46,11 +46,11 @@ button:hover,a , a *{
   height: 15px;
 }
 
-div.about-avatar img {
+.about-avatar img {
   box-shadow: 0 0 5px 2px #888a8b;
 }
 
-div.about-avatar:hover{
+.about-avatar:hover{
   transition: ease-out 1.5s;
   transform: scale(1.03);
 }
