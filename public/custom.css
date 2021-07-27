@@ -1,9 +1,47 @@
-a:hover{
-  /* cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1044.ani), url(https://ani.cursors-4u.net/nature/nat-11/nat1039.png), pointer; */
+* {
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto;
+}
+
+
+h1, h2, h3, h4, h5, h6, code, .page-header span{
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym648.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym648.gif), auto;
+}
+
+button:hover,a , a *{
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam307.ani), url(https://cur.cursors-4u.net/games/gam-4/gam307.png), auto !important;
+  /* cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1044.ani), url(https://ani.cursors-4u.net/nature/nat-11/nat1039.png), pointer; */
   /* cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat970.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat970.gif), pointer; */
 }
 
-span {
-  cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym648.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym648.gif), auto;
+.scroll-down-bar {
+  cursor: url(https://cur.cursors-4u.net/games/gam-4/gam308.cur), auto;
+}
+
+.scroll-down-bar i, a img{
+  cursor: url(https://cur.cursors-4u.net/games/gam-10/gam987.ani), url(https://cur.cursors-4u.net/games/gam-10/gam987.png), auto !important;
+}
+
+.index-img:hover {
+  transform: scale(1.05);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar-thumb {
+  background-color: #0099FF;
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.5) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.5) 50%,rgba(255,255,255,.5) 75%,transparent 75%,transparent);
+  border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffcc;
+  border-radius: 3em;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 15px;
 }
