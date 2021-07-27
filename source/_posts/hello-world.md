@@ -20,13 +20,13 @@ updated:
 
 ### 图片
 
-![Markdown文件渲染过程](markdown-flowchart.png)
+![Markdown文件渲染过程](./hello-world/markdown-flowchart.png)
 
 
 
 ### 超链接
 
-[百度](https://www.)
+[百度]()
 
 
 
