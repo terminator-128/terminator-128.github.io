@@ -111,6 +111,7 @@ deploy:
   branch: master
   extend_dirs: /
 
+# live2d
 live2d:
 	enable: "true"
 	scriptFrom: "local"
