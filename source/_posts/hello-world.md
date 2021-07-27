@@ -20,7 +20,7 @@ updated:
 
 ### 图片
 
-![Markdown文件渲染过程](./hello-world/markdown-flowchart.png)
+![Markdown文件渲染过程](https://ftp.bmp.ovh/imgs/2021/07/c90cce84103c7a9c.png)
 
 
 
