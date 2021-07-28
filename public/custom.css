@@ -7,6 +7,11 @@ h1, h2, h3, h4, h5, h6, code, .page-header span{
   cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym648.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym648.gif), auto;
 }
 
+input, textarea {
+  cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur),auto;
+}
+
+
 .page-header .h1 {
   font-size: 2.7rem;
 }
@@ -19,7 +24,7 @@ h1, h2, h3, h4, h5, h6, code, .page-header span{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button:hover,a , a *{
+button:hover,a , a *,.vicon svg{
   cursor: url(https://cur.cursors-4u.net/games/gam-4/gam307.ani), url(https://cur.cursors-4u.net/games/gam-4/gam307.png), auto !important;
   /* cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1044.ani), url(https://ani.cursors-4u.net/nature/nat-11/nat1039.png), pointer; */
   /* cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat970.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat970.gif), pointer; */
