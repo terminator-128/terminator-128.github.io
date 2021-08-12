@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/favicon.png
+favicon: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/favicon.png"
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/favicon.png
+apple_touch_icon: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/favicon.png"
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -867,7 +867,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/default.png"
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -878,7 +878,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/default.png"
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
@@ -901,7 +901,7 @@ links:
       title: "Fluid Blog",
       intro: "主题博客",
       link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      avatar: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/favicon.png"
     }
     - {
       title: "Fluid Docs",
@@ -913,12 +913,12 @@ links:
       title: "Fluid Repo",
       intro: "主题 GitHub 仓库",
       link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      avatar: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/favicon.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
-  onerror_avatar: /img/avatar.png
+  onerror_avatar: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/avatar.png"
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
