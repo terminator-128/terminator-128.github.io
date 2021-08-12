@@ -1,8 +1,8 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var OriginTitle = document.title;
+var OriginTitle = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
-        document.title = '( •_•)>⌐(•_•) 给我回来';
+        document.title = '( •_•)&gt;⌐(•_•) 给我回来';
         clearTimeout(titleTime);
     }
     else {
@@ -65,7 +65,7 @@ class Circle {
     }
   
     init() {
-      for(let i = 0; i < this.circleCount; i++) {
+      for(let i = 0; i &lt; this.circleCount; i++) {
         const circle = new Circle({
           context: this.context,
           origin: this.origin,
@@ -78,8 +78,8 @@ class Circle {
     }
   
     move() {
-      this.circles.forEach((circle, index) => {
-        if (circle.position.x > this.area.width || circle.position.y > this.area.height) {
+      this.circles.forEach((circle, index) =&gt; {
+        if (circle.position.x &gt; this.area.width || circle.position.y &gt; this.area.height) {
           return this.circles.splice(index, 1)
         }
         circle.move()
@@ -90,7 +90,7 @@ class Circle {
     }
   
     draw() {
-      this.circles.forEach(circle => circle.draw())
+      this.circles.forEach(circle =&gt; circle.draw())
     }
   }
   
@@ -155,7 +155,7 @@ class Circle {
       this.computerContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
       this.renderContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
   
-      this.booms.forEach((boom, index) => {
+      this.booms.forEach((boom, index) =&gt; {
         if (boom.stop) {
           return this.booms.splice(index, 1)
         }

@@ -99,7 +99,7 @@ ignore:
 Plugins: 
 - hexo-generate-feed
 - hexo-helper-live2d
-- hexo-renderer-marked
+- hexo-renderer-markdown-it
 
 ## Themes: https://hexo.io/themes/
 theme: fluid

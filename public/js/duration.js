@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>!(function() {
+!(function() {
   function update() {
     var now = new Date();
     var grt = new Date("2021-07-027 00:00:00");  /** 此处是计时的起始时间 **/
@@ -20,8 +20,8 @@
     if(String(snum).length === 1 ){
       snum = "0" + snum;
     }
-    document.getElementById("timeDate").innerHTML = "本站安全运行&nbsp"+dnum+"&nbsp天";
-    document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+    document.getElementById("timeDate").innerHTML = "本站安全运行&nbsp;"+dnum+"&nbsp;天";
+    document.getElementById("times").innerHTML = hnum + "&nbsp;小时&nbsp;" + mnum + "&nbsp;分&nbsp;" + snum + "&nbsp;秒";
   }
   setInterval(update, 1000);
 })();
