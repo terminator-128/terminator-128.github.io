@@ -1,5 +1,6 @@
----
 title: Hello World
+author: CXY
+date: 2021-08-12 10:48:21
 index_img:
 banner_img:
 updated:
@@ -142,4 +143,3 @@ fn main() {
     println!("Hello, world!");
 }
 ```
-
