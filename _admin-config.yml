@@ -1,0 +1,11 @@
+options:
+  imagePath: img/post
+  overwriteImages: true
+  imagePrefix: ''
+  askImageFilename: true
+  lineNumbers: true
+  spellcheck: false
+editor:
+  lineNumbers: true
+  inputStyle: contenteditable
+  spellcheck: false

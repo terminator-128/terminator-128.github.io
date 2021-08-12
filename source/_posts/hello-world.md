@@ -1,6 +1,10 @@
 title: Hello World
 author: CXY
-date: 2021-08-12 10:48:21
+tags:
+  - blog
+categories:
+  - 进击的小白
+date: 2021-08-12 10:48:00
 index_img:
 banner_img:
 updated:
@@ -13,133 +17,18 @@ updated:
 
 但是，由于实在是没有钱租服务器（一个穷学生:man_student:），并且目前很多博客服务提供商要么不可定制，要么定制过程很不友好，所以只能采用Hexo+GIthub的方式姑且来暂时应对一下。
 
+## 部署方式
+
+这里采用的部署方式自然是 Hexo+deploy的方式，主题的话采用fluid加了一点点料。
+> 不过从大佬们的博客来看，hexo的butterfly是一个很好的自定义选项；并且除了Hexo，Hugo也是静态博客的一个选择，貌似有着更高的编译速度（不过由于本人的博客实在量少，所以停留在hexo:smile:）
+
+关于个性化博客这一方面，由于没有那么大的需求，比如gitcalendar之类的表达都可以通过GitHub的关注获得，所以更个性的博客主题等待我空闲时间去做吧:triangular_flag_on_post:。
 
 
-## Markdown
+## 关于插件
 
-所有文章均为Markdown渲染而成，下面测试展示：
+hexo一直为没有后端而成为一些喜欢折腾的人的选择，其实，总有一些提前接触hexo的人更早的发现了这个问题，于是在hexo中其实可以使用插件解决问题：[hexo-admin](https://www.npmjs.com/package/hexo-admin)。
 
-### 图片
+![hexo-admin界面](/img/post/hexo-admin.png)
 
-![Markdown文件渲染过程](https://ftp.bmp.ovh/imgs/2021/07/c90cce84103c7a9c.png)
-
-
-
-### 超链接
-
-[百度](https://www.baidu.com)
-
-
-
-### 字体
-
-**这是** *一段*  示例
-
-
-
-### 列表
-
-1. 王小波
-2. 周国平
-   - 《尼采：在世纪的转折点上》
-   - 《守望的距离》
-   - 《人生哲思录》
-   - 《人与永恒》
-
-- - - - -
-
-- 独孤求败
-
-
-- 西门吹雪
-
-
-### 音乐
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=963107361&auto=1&height=430"></iframe>
-
-### 表格
-
-| header | header0 | header1 | header2 | header3 |
-| ------ | ------- | ------- | ------- | ------- |
-| row0   |         |         |         |         |
-| row1   |         |         |         |         |
-
-
-
-### 引用
-
-> 这里是一段应用
-
-
-
-### 数学公式
-
-$$
-E = m*c^2
-$$
-
-
-
-### 代码块
-
-#### C
-
-```c++
-#include <stdio.h>
-
-int main()
-{
-    printf("Hello, world!");
-    return 0;
-}
-```
-
-#### C++
-
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    cout << "Hello, world!" << endl;
-    return 0;
-}
-```
-
-#### python
-
-```python
-def __main():
-    print("Hello, World!\n")
-```
-
-#### java
-
-```java
-class HelloWorld {
-    public static void main(String args[]){
-        System.out.println("Hello, world");
-    }
-}
-```
-
-#### Go
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("Hello, world!")
-}
-```
-
-#### Rust
-
-```rust
-fn main() {
-    println!("Hello, world!");
-}
-```
+然后，开始愉快的hexo博客之旅吧。
