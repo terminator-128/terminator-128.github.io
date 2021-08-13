@@ -204,7 +204,10 @@ custom_css: /custom.css
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
-custom_head: ''
+custom_head: '
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+'
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
@@ -263,7 +266,7 @@ lazyload:
 
   # 加载时的占位图片
   # The placeholder image when loading
-  loading_img: /img/loading.gif
+  loading_img: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/loading.gif"
 
   # 开启后懒加载仅在文章页生效，如果自定义页面需要使用，可以在 Front-matter 里指定 `lazyload: true`
   # If true, only enable lazyload on the post page. For custom pages, you can set 'lazyload: true' in front-matter
@@ -311,6 +314,7 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "document", link: "/document/", icon: "iconfont icon-books", name: "文档"}
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
@@ -375,7 +379,15 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <div id="clickCanvas" style=" position:fixed;left:0;top:0;z-index:999999999;pointer-events:none;"></div>
+    <div>
+      <img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.9/images/moeicp.png" style="height:1rem;" alt="MOE ICP">
+      <a href="https://icp.gov.moe/?keyword=20210028" target="_blank">萌ICP备20210028号</a>
+    </div>
+    <script>
+      GitHubCalendar(".calendar", "terminator-128");
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "terminator-128", { responsive: true });
+    </script>
     '
 
   # 展示网站的 PV、UV 统计数
@@ -404,7 +416,7 @@ footer:
     # 公安备案的编号，用于URL跳转查询
     police_code: 12345678
     # 公安备案的图片. 为空时不显示备案图片
-    police_icon: /img/police_beian.png
+    police_icon: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/police_beian.png"
 
 
 #---------------------------
@@ -433,7 +445,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "RE∞: 摸🐟00后の异世界生活"
+    text: "RE∞: 摸🐟CXYの异世界生活"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -907,7 +919,7 @@ links:
       title: "Fluid Docs",
       intro: "主题使用指南",
       link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
+      avatar: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/favicon.png"
     }
     - {
       title: "Fluid Repo",
