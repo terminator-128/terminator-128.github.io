@@ -381,7 +381,7 @@ footer:
   content: '
     <div>
       <img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.9/images/moeicp.png" style="height:1rem;" alt="MOE ICP">
-      <a href="https://icp.gov.moe/?keyword=20210028" target="_blank">萌ICP备20210028号</a>
+      <a href="https://icp.gov.moe/?keyword=20218086" target="_blank">萌ICP备20218086号</a>
     </div>
     <script>
       GitHubCalendar(".calendar", "terminator-128");
@@ -866,6 +866,7 @@ about:
     - { class: "iconfont icon-gitee-fill", link: "https://gitee.com/terminator-128", tip: "Gitee"}
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/xia-li-ba-ren-56-83", tip: "知乎" }
     - { class: "iconfont icon-bilibili-fill", link: "https://space.bilibili.com/349556341", tip: "哔哩哔哩"}
+    - { class: "iconfont icon-qq-fill", link: "tencent://message/?uin=2740686056&Site=Sambow&Menu=yes", tip: "QQ"}
     - { class: "iconfont icon-weibo-fill", link: "https://weibo.com/u/7497711894", tip: "微博"}
     - { class: "iconfont icon-rss-fill", link: "/atom.xml", tip: "RSS"}
     # - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
