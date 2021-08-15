@@ -109,6 +109,8 @@ theme: fluid
 deploy:
   type: 'git'
   repo: https://github.com/terminator-128/terminator-128.github.io.git
+      # github: https://github.com/terminator-128/terminator-128.github.io.git
+      # gitee : https://gitee.com/terminator-128/terminator-128.github.io.git
   branch: master
   extend_dirs: /
 

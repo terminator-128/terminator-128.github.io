@@ -205,13 +205,13 @@ custom_css: /custom.css
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
 custom_head: '
-  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 '
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
-custom_html: ''
+custom_html: ""
 
 # 网页访问统计
 # Analysis of website visitors
@@ -858,7 +858,7 @@ about:
   subtitle: "わたし、気になります"
   avatar: "https://cdn.jsdelivr.net/gh/terminator-128/terminator-128.github.io@latest/img/avatar.gif"
   name: "陈新钰"
-  intro: "一个会使用魔法的麻瓜"
+  intro: "<span id='typed'></span>"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
